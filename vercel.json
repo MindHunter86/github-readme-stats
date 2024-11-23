@@ -10,5 +10,16 @@
       "source": "/",
       "destination": "https://github.com/Mindhunter86"
     }
+  ],
+  "headers": [
+    {
+      "source": "/",
+      "headers" : [
+        {
+          "key" : "X-Robots-Tag",
+          "value" : "noindex"
+        }
+      ]
+    }
   ]
 }
